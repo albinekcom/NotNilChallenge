@@ -1,18 +1,18 @@
 # Not Nil Challenge
 
-Comparing performance of `not nil` syntax variations.
+`if let _ = value` or `if value != nil`? Comparing performance of `not nil` syntax variations.
 
 
 ## Usage
 
 1. Clone this repository
-2. Open directory with cloned repository in `Terminal`
-3. Execute command `swift test`
-4. Compare the results
-5. BONUS: Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for longer / shorter runs
+2. Run `swift test` and compare the results
+
+**BONUS:** Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for longer / shorter runs
 
 
 ## Results
+
 ```
 Test device: MacBook Pro (Retina, 15-inch, Mid 2015, 2,2 GHz Intel Core i7, 16 GB RAM)
 OS: macOS Sierra 10.12.4
