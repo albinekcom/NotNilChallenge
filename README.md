@@ -8,22 +8,22 @@
 1. Clone this repository
 2. Run `swift test` and compare the results
 
-**BONUS:** Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for longer / shorter runs
+**BONUS:** Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for longer / shorter runs.
 
 
-## Results
+## Test environment
 
-```
-Test device: MacBook Pro (Retina, 15-inch, Mid 2015, 2,2 GHz Intel Core i7, 16 GB RAM)
-OS: macOS Sierra 10.12.4
-Swift: 3.1
-Attempts: 10_000_000
-```
+- MacBook Pro (Retina, 15-inch, Mid 2015, 2,2 GHz Intel Core i7, 16 GB RAM)
+- macOS Sierra 10.12.4
+- Swift 3.1
+- Attempts = 10_000_000
 
-```
-if let _ = value - 0.046 sec
-if value != nil - 0.754 sec
-```
+## Test results
+
+| Variant           | Duration  |
+|-------------------|-----------|
+| if let _ = value  | 0.046 sec |
+| if value != nil   | 0.754 sec |
 
 
 ## Conclusion
