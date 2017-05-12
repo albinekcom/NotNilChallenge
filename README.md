@@ -20,10 +20,10 @@
 
 ## Test results
 
-| Variant           | Duration  |
-|-------------------|-----------|
-| if let _ = value  | 0.046 sec |
-| if value != nil   | 0.754 sec |
+| Variant            | Duration  |
+|--------------------|-----------|
+| `if let _ = value` | 0.046 sec |
+| `if value != nil`  | 0.754 sec |
 
 
 ## Conclusion
