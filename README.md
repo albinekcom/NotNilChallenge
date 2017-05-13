@@ -16,7 +16,7 @@
 
 ## Test Environment
 
-- Device: MacBook Pro (15-inch, Mid 2015, 2.2GHz Intel Core i7, 16 GB RAM)
+- Device: MacBook Pro (15-inch, Mid 2015, 2.2GHz Intel Core i7, 16GB RAM)
 - OS: macOS Sierra 10.12.4
 - Swift: 3.1
 - Attempts: 10,000,000
