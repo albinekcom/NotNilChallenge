@@ -1,5 +1,7 @@
 # Not Nil Challenge
 
+[![Build Status](https://travis-ci.org/albinekcom/NotNilChallenge.svg?branch=master)](https://travis-ci.org/albinekcom/NotNilChallenge)
+
 `if let _ = value` or `if value != nil`? Comparing performance of `not nil` syntax variations.
 
 
@@ -28,4 +30,4 @@
 
 ## Conclusion
 
-`if let _ = value` is much faster than `if value != nil`
+`if let _ = value` is about 16x faster than `if value != nil`.
