@@ -11,7 +11,7 @@
 1. Clone this repository
 2. Run `swift test` and compare the results
 
-**BONUS:** Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for longer / shorter runs.
+> Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for more / fewer runs.
 
 
 ## Test Environment
