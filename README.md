@@ -21,6 +21,7 @@
 - Swift: 3.1
 - Attempts: 10,000,000
 
+
 ## Test Results
 
 | Variant            | Duration  |
