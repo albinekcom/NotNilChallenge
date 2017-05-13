@@ -11,14 +11,14 @@
 **BONUS:** Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for longer / shorter runs.
 
 
-## Test environment
+## Test Environment
 
 - MacBook Pro (Retina, 15-inch, Mid 2015, 2,2 GHz Intel Core i7, 16 GB RAM)
 - macOS Sierra 10.12.4
 - Swift 3.1
 - Attempts = 10_000_000
 
-## Test results
+## Test Results
 
 | Variant            | Duration  |
 |--------------------|-----------|
