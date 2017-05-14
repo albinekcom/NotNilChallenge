@@ -35,4 +35,4 @@ $ swift test
 
 ## Conclusion
 
-`if let _ = value` is about 16x faster than `if value != nil`.
+`if let _ = value` is about **16x faster** than `if value != nil`.
