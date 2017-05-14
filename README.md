@@ -10,7 +10,7 @@
 
 Run the command below and compare the results.
 
-```
+```bash
 $ swift test
 ```
 
