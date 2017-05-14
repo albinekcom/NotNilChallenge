@@ -14,7 +14,7 @@ Run the command below and compare the results.
 $ swift test
 ```
 
-> Modify `attempts` parameter in `NotNilChallengeTests` class to check performance for more / fewer runs.
+> Modify `attempts` property in `NotNilChallengeTests` class to check performance for more / fewer runs.
 
 
 ## Test Environment
