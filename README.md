@@ -20,7 +20,7 @@ $ swift test
 ## Test Environment
 
 - Device: MacBook Pro (15-inch, Mid 2015, 2.2GHz Intel Core i7, 16GB RAM)
-- OS: macOS Sierra 10.13
+- OS: macOS High Sierra 10.13.1
 - Swift: 4.0.2
 - Attempts: 10,000,000
 
@@ -29,10 +29,10 @@ $ swift test
 
 | Variant            | Duration  |
 |--------------------|-----------|
-| `if let _ = value` | 0.046 sec |
-| `if value != nil`  | 0.754 sec |
+| `if let _ = value` | 0.193 sec |
+| `if value != nil`  | 0.887 sec |
 
 
 ## Conclusions
 
-`if let _ = value` is about **16x faster** than `if value != nil`.
+`if let _ = value` is about **5x faster** than `if value != nil`.
