@@ -20,17 +20,17 @@ $ swift test
 ## Test Environment
 
 - Device: MacBook Pro (15-inch, Mid 2015, 2.2GHz Intel Core i7, 16GB RAM)
-- OS: macOS High Sierra 10.13.1
-- Swift: 4.0.2
+- OS: macOS High Sierra 10.13.2
+- Swift: 4.0.3
 - Attempts: 10,000,000
 
 
 ## Test Results
 
-| Variant            | Duration  |
-|--------------------|-----------|
-| `if let _ = value` | 0.193 sec |
-| `if value != nil`  | 0.887 sec |
+| Variant            | Average duration |
+|--------------------|------------------|
+| `if let _ = value` | 0.217 sec        |
+| `if value != nil`  | 0.990 sec        |
 
 
 ## Conclusions
