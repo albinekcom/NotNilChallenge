@@ -1,6 +1,6 @@
 # Not Nil Challenge
 
-![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg)
+![Swift 4.1](https://img.shields.io/badge/Swift-4-orange.svg)
 [![Build Status](https://travis-ci.org/albinekcom/NotNilChallenge.svg?branch=master)](https://travis-ci.org/albinekcom/NotNilChallenge)
 
 `if let _ = value` or `if value != nil`? Comparing performance of `not nil` syntax variations.
@@ -20,8 +20,8 @@ $ swift test
 ## Test Environment
 
 - Device: MacBook Pro (15-inch, Mid 2015, 2.2GHz Intel Core i7, 16GB RAM)
-- OS: macOS High Sierra 10.13.2
-- Swift: 4.0.3
+- OS: macOS High Sierra 10.13.3
+- Swift: 4.1.2
 - Attempts: 10,000,000
 
 
@@ -29,10 +29,10 @@ $ swift test
 
 | Variant            | Average duration |
 |--------------------|------------------|
-| `if let _ = value` | 0.217 sec        |
-| `if value != nil`  | 0.990 sec        |
+| `if let _ = value` | 0.165 sec        |
+| `if value != nil`  | 0.184 sec        |
 
 
 ## Conclusions
 
-`if let _ = value` is about **5x faster** than `if value != nil`.
+`if let _ = value` is about **12%** than `if value != nil`.
