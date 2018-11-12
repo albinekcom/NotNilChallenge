@@ -3,5 +3,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "NotNilChallenge"
+    name: "NotNilChallenge",
+
+    targets: [
+        .testTarget(name: "NotNilChallengeTests")
+    ]
 )
