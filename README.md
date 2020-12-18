@@ -1,7 +1,7 @@
 # Not Nil Challenge
 
-![Swift 4.2.1](https://img.shields.io/badge/Swift-4.2.1-orange.svg)
-[![Build Status](https://travis-ci.org/albinekcom/NotNilChallenge.svg?branch=master)](https://travis-ci.org/albinekcom/NotNilChallenge)
+![Swift 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg)
+[![Build Status](https://travis-ci.com/albinekcom/NotNilChallenge.svg?branch=master)](https://travis-ci.com/albinekcom/NotNilChallenge)
 
 `if let _ = value` or `if value != nil`? Comparing performance of `not nil` syntax variations.
 
